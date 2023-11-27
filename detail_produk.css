@@ -1,0 +1,83 @@
+.konten {
+  margin-top: 160px;
+}
+
+.card-orange {
+  background-color: #f6e8cb;
+  border-radius: 5px;
+  padding: 20px;
+  justify-content: start;
+  border: 1px solid black !important;
+}
+
+.gambar-produk {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+p {
+  text-align: start;
+}
+
+.hemat {
+  background-color: #d30303;
+  width: 17%;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.harga {
+  color: #ff0000;
+  font-size: 30px;
+}
+
+.rating {
+  width: 150px;
+}
+
+.terjual {
+  font-size: 25px;
+}
+
+.jenis {
+  display: none;
+}
+
+.var {
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plus-minus-buttons button {
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Gaya untuk input number */
+.number-input {
+  width: 50px;
+  text-align: center;
+}
+
+.btn-orange {
+  background-color: #f5762f;
+  padding: 5px;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.kanan {
+  list-style: decimal;
+}

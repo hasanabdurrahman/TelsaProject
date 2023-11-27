@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&display=swap");
+body {
+  background-color: #f3f3f3;
+}
+/* Navbar Section */
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-button {
+  position: relative;
+  padding: 0% 7px;
+}
+.nav-profil1 {
+  position: relative;
+  padding: 0% 7px;
+  margin-left: 5px;
+}
+
+/* Popup CSS */
+.popup {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 150px;
+  z-index: 999;
+}
+.popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.popup li {
+  padding: 5px 10px; /* Mengatur jarak atas dan bawah (5px) dan jarak kiri dan kanan (10px) */
+  border-top: 1px solid #ccc; /* Menerapkan garis antara li */
+}
+/* Gaya tombol Batal */
+#cancel-logout {
+  cursor: pointer;
+}
+/* Atur posisi pop-up di bawah nav-profil */
+#profile-image {
+  cursor: pointer;
+  position: relative;
+}
+#logout-popup {
+  top: 100%;
+  left: 80%;
+}
+.logout > p {
+  font-size: 11pt;
+}
+
+.nav-profil2 {
+  position: relative;
+  margin-top: 2px;
+}
+.nav-profil2 > p {
+  color: #511517;
+}
+.navbar-brand {
+  margin-right: 50px;
+}
+.nav-ul {
+  display: flex;
+}
+.nav-link {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px;
+}
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 3px;
+  width: 100%;
+  background-color: #569171;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover::after {
+  opacity: 1;
+}
+.nav-link.active::after {
+  opacity: 1;
+}
+.btn {
+  border-radius: 20px;
+  height: 40px;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  background-color: #ff6a00;
+  color: #ffffff;
+}
+.btn:hover {
+  border-radius: 20px;
+  height: 40px;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  background-color: #569171;
+  color: #ffffff;
+}
+.container-fluid {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13pt;
+  font-weight: 400;
+  text-align: center;
+  color: #3c424b;
+}
+
+/* Footer section */
+
+.sticky-footer {
+  background-color: #569171;
+  color: #ffffff;
+}
+
+/* Media  */
+
+/* Laptop  */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 62, 5%;
+  }
+}
+
+/* Handphone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}

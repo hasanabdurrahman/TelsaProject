@@ -1,0 +1,81 @@
+.custom-file-upload {
+  cursor: pointer;
+}
+
+.custom-file-upload img {
+  width: 100%;
+}
+
+.jenis {
+  display: none;
+}
+
+.pilihan {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pilihan:hover {
+  background-color: #eb713e;
+  color: white;
+}
+
+.selected {
+  background-color: #eb713e;
+  color: white !important;
+}
+
+.btn-orange {
+  background-color: #eb713e;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-orange-cari {
+  background-color: #eb713e;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  width: 10%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.navigasi li {
+  list-style: none;
+  margin-right: 60px;
+}
+
+.nav1 {
+  color: black !important;
+  text-decoration: none;
+  padding-bottom: 7px;
+}
+
+.nav1:hover {
+  border-bottom: 3px solid black;
+}
+
+.nav1.active {
+  border-bottom: 3px solid black;
+}
+
+.panah-drop {
+  cursor: pointer;
+}
+
+.nama-produk1 {
+  border: 1px solid #7b7b7b;
+  padding: 10px 20px;
+  background-color: white;
+  width: 25%;
+}
+
+.table {
+  background-color: white !important;
+}

@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&display=swap");
+body {
+  background-color: #f3f3f3;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-button {
+  position: relative;
+  padding: 0% 7px;
+}
+.nav-profil1 {
+  position: relative;
+  padding: 0% 7px;
+  margin-left: 5px;
+}
+
+/* Popup CSS */
+.popup {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 150px;
+  z-index: 999;
+}
+.popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.popup li {
+  padding: 5px 10px; /* Mengatur jarak atas dan bawah (5px) dan jarak kiri dan kanan (10px) */
+  border-top: 1px solid #ccc; /* Menerapkan garis antara li */
+}
+/* Gaya tombol Batal */
+#cancel-logout {
+  cursor: pointer;
+}
+/* Atur posisi pop-up di bawah nav-profil */
+#profile-image {
+  cursor: pointer;
+  position: relative;
+}
+#logout-popup {
+  top: 100%;
+  left: 80%;
+}
+.logout > p {
+  font-size: 11pt;
+}
+
+.nav-profil2 {
+  position: relative;
+  margin-top: 2px;
+}
+.nav-profil2 > p {
+  color: #511517;
+}
+.navbar-brand {
+  margin-right: 50px;
+}
+.nav-ul {
+  display: flex;
+}
+.nav-link2.active .img-fluid2 {
+  content: url("image/help-menu2.png");
+  width: 30px;
+  height: 30px;
+}
+.nav-link {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px;
+}
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 3px;
+  width: 100%;
+  background-color: #569171;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover::after {
+  opacity: 1;
+}
+.nav-link.active::after {
+  opacity: 1;
+}
+.btn {
+  border-radius: 20px;
+  height: 40px;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  background-color: #ff6a00;
+  color: #ffffff;
+}
+.btn:hover {
+  border-radius: 20px;
+  height: 40px;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  background-color: #569171;
+  color: #ffffff;
+}
+.container-fluid {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+/* konten section  */
+.container-landing {
+    margin-top: 15vh;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    background-image: url("image/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    margin-top: 50px;
+    margin-left: 60px;
+    color: #ff6a00;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 60px;
+}
+
+.main{
+    width: 190vh;
+    height: 75vh;
+    background-color: #F6E8CB;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #9FA4A8;
+    display: auto;
+}
+
+.faq-container{
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.faq{
+    background-color: #FFFFFF;
+    border: 1px solid #9FA4A8;
+    border-radius: 5px;
+    margin: 10px 0;
+    margin-left: 30px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    width: 160vh;
+}
+
+.faq-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.faq-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.faq-active .faq-text{
+    display: block;
+}
+
+.faq-toggle{
+    background: transparent;
+    border: transparent;
+    border-radius: 40%;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.2rem;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    color: #EB713E;
+}
+
+.faq-toggle:focus{
+    outline: 0;
+}
+
+.faq-toggle .fa-chevron-up{
+    display: none;
+}
+
+.faq-active .faq-toggle .fa-chevron-up{
+    display: block;
+    color: #fff;
+}
+
+.faq-active .faq-toggle .fa-chevron-down{
+    display: none;
+}
+
+
+/* Footer section */
+.sticky-footer {
+  background-color: #569171;
+  color: #ffffff;
+}

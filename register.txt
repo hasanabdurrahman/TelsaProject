@@ -1,0 +1,12 @@
+Email: adjakdja@gmail.com, Password From Request: 1234567890, Password Hashed: $2y$10$MRef5lmvGqkqAEy67pGJ2OzelJ7NnSXhgD2AgRaIyT/TxTTi6ivtC
+Email: riekeipb101@gmail.com, Password From Request: 123456, Password Hashed: $2y$10$ipfpdh4AKEohakXXKFphxORoo96E3f4I5nKi83eLSuYkVspIkN8dC
+Email: riekeipb101@gmail.com, Password From Request: 123456789, Password Hashed: $2y$10$Byzh3FV45ANpTa.Pd1ny3OiP.oYl3V/vyMTjt/eu.VBVo5uVC23du
+Email: satu@gmail.com, Password From Request: 12345678, Password Hashed: $2y$10$dfVmub1w.nfACWGDcTI4te5kFyfdrrTkXTi4kxYY7MyX1D9Fnnj3W
+Email: ariya.pratama@gmail.com, Password From Request: ariya1103, Password Hashed: $2y$10$GJCWCV3Fatvl9Q33QvUuE.Cz9DDinZiQehFvoNjFv1MvokUTB6kje
+Email: hasanabdurrahman12345@gmail.com, Password From Request: hasan123, Password Hashed: $2y$10$pbkkNy.vSGO52Mzeh/kRzOV5EnsKsRntc3MBNeJMGsz3zTrRwY2Rq
+Email: hasanabdurrahman12345@gmail.com, Password From Request: hasan123, Password Hashed: $2y$10$fKBP0cYqJa3vmHhMv1a7..9ABrwlD7L7yU0uoGsls1UeJmzPoRavm
+Email: hasanabdurrahman12345@gmail.com, Password From Request: hasan123, Password Hashed: $2y$10$dKRVtsNd39rfPn2LfAulZeN/ecjlEP9Pu62FHVqdtGDIKvUtLKHcm
+Email: hasanabdurrahman12345@gmail.com, Password From Request: hasan123, Password Hashed: $2y$10$vHoroGlvRGnKG3Lq8aOse.DjzY6dGDeyLZ8avqKM09k8yT97bSVwK
+Email: hasanabdurrahman12345@gmail.com, Password From Request: hasan123, Password Hashed: $2y$10$8xZJCxkn8Cwg.hkmtrgNiekmqQuKNVpQ2luneTEs1PuiQsXZhj4Xe
+Email: hasanabdurrahman12345@gmail.com, Password From Request: hasan123, Password Hashed: $2y$10$hvdSXaQjWSlqK3jhiOtoneKuyStu3sy9DVdfqryh1ujTE81jvCCpS
+Email: hasanabdurrahman12345@gmail.com, Password From Request: hasan123, Password Hashed: $2y$10$VYNszDQ31WQqmA8E9p6rKeZaFXwiwK22uyhGyMvx9Z3ydCANZT/Pe

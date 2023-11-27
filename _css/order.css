@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&display=swap");
+body {
+  background-color: #f3f3f3;
+}
+/* Navbar Section */
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-button {
+  position: relative;
+  padding: 0% 7px;
+}
+.nav-profil1 {
+  position: relative;
+  padding: 0% 7px;
+  margin-left: 5px;
+}
+
+/* Popup CSS */
+.popup {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 150px;
+  z-index: 999;
+}
+.popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.popup li {
+  padding: 5px 10px; /* Mengatur jarak atas dan bawah (5px) dan jarak kiri dan kanan (10px) */
+  border-top: 1px solid #ccc; /* Menerapkan garis antara li */
+}
+/* Gaya tombol Batal */
+#cancel-logout {
+  cursor: pointer;
+}
+/* Atur posisi pop-up di bawah nav-profil */
+#profile-image {
+  cursor: pointer;
+  position: relative;
+}
+#logout-popup {
+  top: 100%;
+  left: 80%;
+}
+.logout > p {
+  font-size: 11pt;
+}
+
+.nav-profil2 {
+  position: relative;
+  margin-top: 2px;
+}
+.nav-profil2 > p {
+  color: #511517;
+}
+.navbar-brand {
+  margin-right: 50px;
+}
+.nav-ul {
+  display: flex;
+}
+.nav-link {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px;
+}
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 3px;
+  width: 100%;
+  background-color: #569171;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover::after {
+  opacity: 1;
+}
+.nav-link.active::after {
+  opacity: 1;
+}
+.btn {
+  border-radius: 20px;
+  height: 40px;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  background-color: #ff6a00;
+  color: #ffffff;
+}
+.btn:hover {
+  border-radius: 20px;
+  height: 40px;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  background-color: #569171;
+  color: #ffffff;
+}
+.container-fluid {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13pt;
+  font-weight: 400;
+  text-align: center;
+  color: #3c424b;
+}
+
+/* Hero section */
+
+.hero {
+  display: flex;
+}
+.hero .content {
+  padding: 1.4 rem 7%;
+  max-width: 60 rem;
+}
+.home {
+  margin-top: 12vh;
+  margin-bottom: 8vh;
+  margin-left: 20vh;
+  align-items: center;
+}
+.teks {
+  align-items: center;
+}
+h1 {
+  font-family: "Potta One", cursive;
+  font-size: 50pt;
+  font-weight: 400;
+  text-align: center;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+.judul3 {
+  font-size: 11pt;
+  font-weight: 400;
+  color: #3c424b;
+}
+.judul1 {
+  color: #569171;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.judul2 {
+  color: #eb713e;
+  text-align: center;
+}
+.judul4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14pt;
+  font-weight: 500;
+  color: #000000;
+}
+.img-home {
+  justify-content: center;
+}
+.yuk-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6vh;
+  padding-left: 18vh;
+  padding-right: 18vh;
+}
+.yuk {
+  margin-right: 10px;
+}
+.button {
+  text-align: right;
+}
+.btn {
+  border-radius: 22.5px;
+  height: 40px;
+  width: 100px;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  background-color: #ff6a00;
+  color: #ffffff;
+}
+.btn:hover {
+  border-radius: 22.5px;
+  height: 40px;
+  width: 100px;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  background-color: #569171;
+  color: #ffffff;
+}
+
+/* Menu 2 */
+main {
+  padding: 20px;
+}
+.judul5 {
+  color: #569171;
+  margin-bottom: 7vh;
+}
+.judul5 > h1 {
+  font-size: 38pt;
+}
+.search-bar {
+  display: flex;
+  max-width: 100vh;
+  margin-left: -40vh;
+}
+.search-input {
+  flex: 1;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 2px solid #eb713e;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  min-width: 160vh;
+  font-size: 12pt;
+  font-weight: 600;
+  height: 8vh;
+}
+.btn2 {
+  border: 3px solid #eb713e;
+  height: 8vh;
+  min-width: 22vh;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  font-size: 12pt;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #eb713e;
+  color: #ffffff;
+}
+.btn2:hover {
+  border: 3px solid #569171;
+  height: 8vh;
+  min-width: 22vh;
+  padding: 7px 30px 7px 30px;
+  font-weight: 500;
+  font-size: 12pt;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #569171;
+  color: #ffffff;
+}
+.search {
+  margin-left: 50vh;
+  margin-right: 40vh;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+  grid-gap: 15px;
+}
+.grid article {
+  box-shadow: 5px 5px 5px 0 black;
+  border-radius: 30px;
+  text-align: center;
+  background: whitesmoke;
+  width: 280px;
+  height: 490px;
+  padding-bottom: 20px;
+}
+.grid article img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 100%;
+}
+article .caption {
+  margin-top: 20px;
+}
+article .caption p {
+  margin: 5px;
+}
+article .caption .rate {
+  display: flex;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+article .caption .rate i {
+  color: #eb713e;
+}
+.product_name {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.price,
+.description,
+.stok {
+  padding-left: 20px;
+  text-align: start;
+  font-size: 11pt;
+}
+img {
+  object-fit: cover;
+}
+
+/* Footer section */
+
+.sticky-footer {
+  background-color: #569171;
+  color: #ffffff;
+}
+
+/* Media  */
+
+/* Laptop  */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 62, 5%;
+  }
+}
+
+/* Handphone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}

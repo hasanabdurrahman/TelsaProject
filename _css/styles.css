@@ -1,0 +1,36 @@
+.logo{
+    width: 100px;
+}
+
+.nav-link{
+  color: #569171;
+}
+
+.maps{
+  width: 80%;
+}
+
+.content{
+  margin-top: 30px;
+}
+
+.search{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 80px;
+  width: 40%;
+}
+
+.judul{
+  background-image: url(assets/bannerdata.jpg);
+  color: #569171;
+  background-size: cover;
+  height: 150px;
+}
+
+.teksjudul{
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 30px;
+}
